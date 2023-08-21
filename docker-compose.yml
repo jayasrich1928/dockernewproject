@@ -10,14 +10,14 @@ services:
   paytmtrain:
     image: jayasri1928/paytmtrain:latest
     ports:
-      - "92:80"
+      - "8081:80"
     deploy:
       replicas: 3
 
   paytmdth:
     image: jayasri1928/paytmdth:latest
     ports:
-      - "93:80"
+      - "8082:80"
     deploy:
       replicas: 3
 
