@@ -3,7 +3,7 @@ services:
   paytmmovies:
     image: jayasri1928/paytmmovies:latest
     ports:
-      - "71:80"
+      - "91:80"
     deploy:
       replicas: 3
 
