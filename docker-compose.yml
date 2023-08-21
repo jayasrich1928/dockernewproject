@@ -3,27 +3,27 @@ services:
   paytmmovies:
     image: jayasri1928/paytmmovies:latest
     ports:
-      - "91:80"
+      - "71:80"
     deploy:
       replicas: 3
 
   paytmtrain:
     image: jayasri1928/paytmtrain:latest
     ports:
-      - "92:80"
+      - "72:80"
     deploy:
       replicas: 3
 
   paytmdth:
     image: jayasri1928/paytmdth:latest
     ports:
-      - "93:80"
+      - "73:80"
     deploy:
       replicas: 3
 
   paytmrecharge:
     image: jayasri1928/paytmrecharge:latest
     ports:
-      - "94:80"
+      - "74:80"
     deploy:
       replicas: 3
