@@ -1,28 +1,28 @@
 version: '3'
 services:
-  paytmmovies:
-    image: jayasri1928/paytmmovies:latest
+  moviespaytm:
+    image: jayasri1928/moviespaytm:latest
     ports:
       - "91:80"
     deploy:
       replicas: 3
 
-  paytmtrain:
-    image: jayasri1928/paytmtrain:latest
+  trainpaytm:
+    image: jayasri1928/trainpaytm:latest
     ports:
       - "92:80"
     deploy:
       replicas: 3
 
-  paytmdth:
-    image: jayasri1928/paytmdth:latest
+  dthpaytm:
+    image: jayasri1928/dthpaytm:latest
     ports:
       - "93:80"
     deploy:
       replicas: 3
 
-  paytmrecharge:
-    image: jayasri1928/paytmrecharge:latest
+  rechargepaytm:
+    image: jayasri1928/rechargepaytm:latest
     ports:
       - "94:80"
     deploy:
